@@ -5,7 +5,7 @@
 - [Python BoilerPlate Code](https://github.com/Tarleton-Computer-Society/hospital-cms-python-boilterplate)
 - [Java BoilerPlate Code](https://github.com/Tarleton-Computer-Society/hospital-cms-java-boilterplate)
 ## GUI Client:
-The GUI client will be built using a GUI framework such as Java Swing, PyQt, or Tkinter. The client will include the following features:
+The GUI client will be built using a Graphic User Inferace (GUI) framework such as Java Swing, PyQt, or Tkinter. The client will include the following features:
 
 - Login TAB: A screen where users can enter their login credentials to access the system.
 - Dashboard page: A screen where users can view their appointments and medical records. The dashboard will include widgets such as calendars and tables to display data.
