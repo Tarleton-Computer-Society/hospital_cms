@@ -1,4 +1,19 @@
-# Hospital CMS System Outline
+
+
+# Hospital CMS System OOP Outline
+## GUI Client:
+The GUI client will be built using a GUI framework such as Java Swing, PyQt, or Tkinter. The client will include the following features:
+
+- Login TAB: A screen where users can enter their login credentials to access the system.
+- Dashboard page: A screen where users can view their appointments and medical records. The dashboard will include widgets such as calendars and tables to display data.
+- Appointments TAB: A screen where users can view and schedule appointments with doctors. The appointments page will include a calendar widget where users can select a date and time for their appointment. Users can also view their past and upcoming appointments.
+- Medical records page: A screen where users can view their medical records and add new ones if necessary. Users can view their medical history, diagnoses, medications, and other relevant information.
+- Doctors TAB: A screen where users can view information about doctors in the system. Users can view doctors' profiles, specialties, contact information, and availability.
+The GUI client will communicate with the HospitalCMS backend using object-oriented programming (OOP) concepts. The backend will include classes and objects such as Patient, Doctor, Appointment, and MedicalRecord. The GUI client will access these objects and methods directly to retrieve and manipulate data.
+
+For example, to display a list of patients on the dashboard, the GUI client will create an instance of the HospitalCMS class and call the get_patients() method. The method will return a list of Patient objects, which the client can display using a table widget.
+
+To schedule an appointment, the GUI client will create a new Appointment object and pass it to the add_appointment() method of the HospitalCMS class. The method will add the appointment to the backend, which the GUI client can then display on the appointments page.
 ## Classes and Objects
 ### Patient
 #### Attributes:
