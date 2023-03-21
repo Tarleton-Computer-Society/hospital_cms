@@ -1,6 +1,7 @@
 
 
 # Hospital CMS System OOP Outline
+- [C++ Boilerplate Code](https://github.com/Tarleton-Computer-Society/hospital-cms-cpp-boilerplate)
 ## GUI Client:
 The GUI client will be built using a GUI framework such as Java Swing, PyQt, or Tkinter. The client will include the following features:
 
